@@ -1,0 +1,38 @@
+id: 01f7ef90-8968-429b-8dd6-069e8dcf238f
+type: entity
+annotations:
+- namespace: c4modeler
+  name: position
+  value:
+    3eb199d0-6efb-48a8-a673-ecd8ee6be7d3:
+      x: 137.75
+      y: 267.30113983154297
+entityType: domain
+fields:
+- name: quantity
+  type: integer
+  description: Description for quantity
+  isPublic: true
+  enumerable: true
+  annotations: []
+- name: productId
+  type: uuid
+  description: Description for productId
+  isPublic: true
+  enumerable: true
+  annotations: []
+- name: product
+  type: Product
+  description: Description for product
+  isPublic: true
+  enumerable: true
+  annotations: []
+- name: invoiceId
+  type: uuid
+  description: Description for invoiceId
+  isPublic: true
+  enumerable: true
+  annotations: []
+name: InvoiceRow
+description: Description for NewEntity
+useRepository: true
