@@ -1,0 +1,11 @@
+id: c6d35a55-1344-4bad-a847-662816a4b27e
+type: datasource
+name: NewDatasource
+description: NewDatasource description
+mode: ReadWrite
+rootEntity: Invoice
+includeAllFields: false
+allowPersistence: false
+fields:
+  - name: invoiceDate
+pageSize: 25

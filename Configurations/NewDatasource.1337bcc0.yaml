@@ -1,0 +1,20 @@
+id: 1337bcc0-10ec-48d2-8d34-582edffcb57a
+type: datasource
+name: NewDatasource
+description: NewDatasource description
+mode: ReadWrite
+rootEntity: Invoice
+includeAllFields: false
+allowPersistence: false
+fields:
+  - name: invoiceRows
+    includeAllFields: false
+    allowPersistence: false
+    fields:
+      - name: quantity
+      - name: product
+        includeAllFields: false
+        allowPersistence: false
+        fields:
+          - name: name
+pageSize: 25

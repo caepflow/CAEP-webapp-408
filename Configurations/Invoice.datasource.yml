@@ -1,32 +1,15 @@
 id: 47119eec-de0d-4482-81b7-edaeb2177683
 type: datasource
-name: InvoiceDatasource
+name: Test
 description: Datasource for managing Invoice
-rootEntity: Invoice
+rootEntity: InvoiceRow
 mode: ReadWrite
-includeAllFields: true
+includeAllFields: false
 allowPersistence: true
 sort:
-- field: invoiceDate
-  direction: Ascending
-- field: description
-  direction: Descending
+  - field: invoiceDate
+    direction: Ascending
+  - field: description
+    direction: Descending
 pageSize: 25
-fields:
-- name: invoiceRows
-  type: InvoiceRowEntity
-  isArray: true
-  isOptional: true
-  includeAllFields: true
-  allowPersistence: true
-  fields:
-  - name: product
-    type: ProductEntity
-    isArray: false
-    includeAllFields: false
-    isOptional: true
-    fields:
-    - name: name
-    - name: description
-    - name: suggestedPrice
-    - name: availableItems
+fields: []
