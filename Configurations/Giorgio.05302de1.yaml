@@ -1,0 +1,20 @@
+id: 05302de1-9f8b-4618-a87d-5801a322d1af
+type: datasource
+name: Giorgio
+description: NewDatasource description
+mode: ReadWrite
+rootEntity: Invoice
+includeAllFields: false
+allowPersistence: false
+fields:
+  - name: invoiceRows
+    includeAllFields: false
+    allowPersistence: false
+    fields:
+      - name: quantity
+      - name: product
+        includeAllFields: false
+        allowPersistence: false
+        fields:
+          - name: name
+pageSize: 25

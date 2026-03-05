@@ -30,3 +30,7 @@ children:
     type: Datasource
     name: NewDatasource
     description: NewDatasource description
+  - id: 05302de1-9f8b-4618-a87d-5801a322d1af
+    type: Datasource
+    name: Giorgio
+    description: NewDatasource description
