@@ -1,6 +1,6 @@
 id: 1337bcc0-10ec-48d2-8d34-582edffcb57a
 type: datasource
-name: NewDatasource
+name: Peppino
 description: NewDatasource description
 mode: ReadWrite
 rootEntity: Invoice
