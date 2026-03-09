@@ -1,18 +1,24 @@
 id: 4e4ea3ad-9d9d-4be0-80b8-afc3450ce5fe
 type: datasource
-name: Pinuccio
-description: NewDatasource description
-mode: ReadWrite
+name: Pinuccione
+description: NewDatasource descriptiono
+mode: ReadOnly
 rootEntity: Invoice
-includeAllFields: false
+includeAllFields: true
 allowPersistence: false
 fields:
-  - name: description
-  - name: Id
-  - name: totalAmount
-  - name: invoiceDate
-pageSize: 25
+  - name: invoiceRows
+    includeAllFields: false
+    allowPersistence: false
+    fields:
+      - name: productId
+      - name: quantity
+pageSize: 24
 sort:
+  - id: __sort__:1773047741731:b73a0b2bbbe598
+    field: invoiceDate
+    direction: Descending
+    isPlaceholder: false
   - id: __sort__:1773047741731:07e84c5de5f18
     field: description
     direction: Descending
@@ -20,8 +26,4 @@ sort:
   - id: __sort__:1773047741731:250fa4c1750e38
     field: totalAmount
     direction: Ascending
-    isPlaceholder: false
-  - id: __sort__:1773047741731:b73a0b2bbbe598
-    field: invoiceDate
-    direction: Descending
     isPlaceholder: false
