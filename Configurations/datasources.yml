@@ -46,3 +46,7 @@ children:
     type: Datasource
     name: NewDatasource
     description: NewDatasource description
+  - id: 6f1d83ef-88ab-44f9-b88e-f839c6107635
+    type: Datasource
+    name: NewDatasource
+    description: NewDatasource description
