@@ -14,3 +14,11 @@ fields:
       - name: productId
       - name: quantity
   - name: invoiceDate
+pageSize: 2
+sort:
+  - field: invoiceDate
+    direction: Ascending
+  - field: invoiceRows.quantity
+    direction: Descending
+  - field: invoiceRows.productId
+    direction: Ascending
