@@ -1,0 +1,18 @@
+id: bb1e324c-c81c-4c9e-aeaa-ba142191d7dd
+type: datasource
+name: NewDatasource
+description: NewDatasource description
+mode: ReadWrite
+rootEntity: Invoice
+includeAllFields: false
+allowPersistence: false
+fields:
+  - name: totalAmount
+  - name: Id
+  - name: invoiceDate
+pageSize: 23
+sort:
+  - field: invoiceDate
+    direction: Ascending
+  - field: totalAmount
+    direction: Ascending
