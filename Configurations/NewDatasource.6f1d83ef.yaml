@@ -8,8 +8,7 @@ includeAllFields: false
 allowPersistence: false
 fields:
   - name: totalAmount
-  - name: invoiceDate
 pageSize: 25
 sort:
-  - field: invoiceDate
+  - field: totalAmount
     direction: Ascending

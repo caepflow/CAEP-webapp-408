@@ -1,0 +1,24 @@
+id: a6c9aac5-71c8-4203-8e58-e15a5792d654
+type: datasource
+name: UseTestDatasource
+description: NewDatasource description
+mode: ReadWrite
+rootEntity: Invoice
+includeAllFields: false
+allowPersistence: false
+fields:
+  - name: invoiceRows
+    includeAllFields: false
+    allowPersistence: false
+    fields:
+      - name: quantity
+      - name: Id
+  - name: description
+  - name: invoiceDate
+  - name: Id
+pageSize: 24
+sort:
+  - field: Id
+    direction: Ascending
+  - field: invoiceDate
+    direction: Ascending

@@ -50,3 +50,7 @@ children:
     type: Datasource
     name: NewDatasource
     description: NewDatasource description
+  - id: a6c9aac5-71c8-4203-8e58-e15a5792d654
+    type: Datasource
+    name: UseTestDatasource
+    description: NewDatasource description
