@@ -34,3 +34,7 @@ children:
     type: Datasource
     name: Giorgio
     description: NewDatasource description
+  - id: 0a39880a-e1bb-4730-8240-7548cd126d71
+    type: Datasource
+    name: NewDatasource
+    description: NewDatasource description

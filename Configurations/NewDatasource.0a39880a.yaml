@@ -1,0 +1,16 @@
+id: 0a39880a-e1bb-4730-8240-7548cd126d71
+type: datasource
+name: Pippo
+description: NewDatasource description
+mode: ReadWrite
+rootEntity: Invoice
+includeAllFields: false
+allowPersistence: false
+fields:
+  - name: invoiceRows
+    includeAllFields: false
+    allowPersistence: false
+    fields:
+      - name: productId
+      - name: quantity
+  - name: invoiceDate
