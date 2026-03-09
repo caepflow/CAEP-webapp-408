@@ -13,8 +13,7 @@ fields:
     fields:
       - name: quantity
       - name: product
-        includeAllFields: false
+        includeAllFields: true
         allowPersistence: false
-        fields:
-          - name: name
+        fields: []
 pageSize: 25
